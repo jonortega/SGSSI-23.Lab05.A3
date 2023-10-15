@@ -35,10 +35,10 @@ def comprobar_archivos(archivo1, archivo2):
         print("Al menos uno de los archivos no se encontró.")
 
 if __name__ == "__main__":
-    # archivo1 = input("Ingrese el nombre del primer archivo de texto: ")
-    # archivo2 = input("Ingrese el nombre del segundo archivo de texto: ")
-    archivo1 = "SGSSI-23.CB.02.txt"
-    archivo2 = "Output.txt"
+    archivo1 = input("Ingrese el nombre del primer archivo de texto: ")
+    archivo2 = input("Ingrese el nombre del segundo archivo de texto: ")
+    # archivo1 = "SGSSI-23.CB.02.txt"
+    # archivo2 = "Output.txt"
 
     resultado = comprobar_archivos(archivo1, archivo2)
     print(f"Los ficheros cumplen las condiciones: {resultado}")
